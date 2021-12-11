@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container header-container">
+     <header class="container header"> 
+        <div class="container container__header">
             <div class="logo">
               <div>
-                  <img src="./img/logo.svg" alt="">
+                  <img src="./img/Icon (2).svg" alt="">
               </div>
                <div>
                    <p class="logo-bold">
@@ -29,12 +29,12 @@
             </div>
             <nav class="header-nav">
                 <ul>
-                    <li class="header-li">
+                    <li class="nav__li">
                         <a href="">
                           Home
                         </a>
                     </li>
-                    <li class="header-li">
+                    <li class="nav__li">
                         <a href="">
                          Stories
                         </a>
@@ -48,138 +48,319 @@
             </nav>
         </div>
     </header>
-    <section class=" base">
-        <div class="base-container">
-            <h2 class="h2">
-                What is it about?
-            </h2>
-            <p class="p">
-                Building a website for a startup 
-                that looks amazing <br> is not a rocket science anymore.
-            </p>
-        </div>
-        <div class="base-container">
-            <h2 class="h2">
-                Who is it for?
-            </h2>
-            <p class="p">
-                Startups, small companies and teams,<br>
-                 entrepreneurs and web developers.
-            </p>
+    <section class="container container__about"> 
+        <div class="about__column">
+           <h2 class="about__title">
+               What is it about?
+           </h2>
+             <p class="about__subtitle">
+                 Building a website for a startup 
+               that looks amazing is not a rocket science anymore.
+             </p>
+         </div >
+           <div class="about__column">
+           <h2 class="about__title">
+               Who is it for?
+           </h2>
+           <p class="about__subtitle">
+               Startups, small companies and teams,<br>
+                entrepreneurs and web developers.
+           </p>
+       </div>
+   </section>
+   <section class="container">
+    <div class="logo">
+                    <img src="./img/nyt.png" alt="">
+                    <img src="./img/forbes.png" alt="">
+                    <img src="./img/applee.png" alt="">
+                    <img src="./img/masha.png" alt="">
+                    <img src="./img/wsj.png" alt="">
+                    <img src="./img/google.png" alt="">  
+       </div>
+   </section>
+    <section class="manage">
+        <div class="container manage-flex">
+                <div>
+                    <img class="transform-img" src="./img/busy/2.png" alt="">
+                </div>
+                   <div>
+                       <p class="text-mini text-mini__orange">
+                            Team Inbox
+                       </p>
+                       <h3 class="title-inner">
+                            Manage conversations
+                       </h3>
+                       <p class="text-inner">
+                            One place to manage and respond to all conversations with leads and users. Receive messages from leads.
+                      </p>
+                      <div class="manage-logo">
+                        <p class="manage__p">
+                            “Great widgets. Great selection. Great design and easy to implement. Definitely a huge time saver for a web developer!”
+                          </p>
+                          <div class="logo">
+                               <div>
+                                <img src="./img/avatar.svg" alt="">
+                               </div>
+                               <div>
+                                   <p class="logo-bold">
+                                    Viella Malkovich
+                                   </p>
+                                   <p class="logo-regular">
+                                    Creative Director at Johnson
+                                   </p>
+                               </div>
+                          </div>
+                          <div class="button-container">
+                            <button class="button-container__button button-container__button-blue"></button>
+                     </div>
+                      </div>
+                  </div>
         </div>
     </section>
-     <div>
-         <ul class="logo-ul">
-              <li class="logo-li">
-                  <a href="">
-                    <img src="./img/Bitmap.png" alt="">
-                  </a>
-              </li>
-              <li class="logo-li">
-                  <a href="">
-                     <img src="./img/Bitmap (1).png" alt="">
-                   </a>
-              </li>
-              <li class="logo-li">
-                  <a href="">
-                        <img src="./img/Bitmap (2).png" alt="">
-                   </a>
-              </li>
-              <li class="logo-li">
-                  <a href="">
-                        <img src="./img/Bitmap (3).png" alt="">
-                   </a>
-              </li>
-              <li class="logo-li">
-                  <a href="">
-                        <img src="./img/Bitmap (4).png" alt="">
-                   </a>
-              </li>
-              <li class="logo-li">
-                  <a href="">
-                       <img src="./img/Bitmap (5).png" alt="">
-                  </a> 
-              </li>
-         </ul>
-        </div>
-        <section class="container-ctg">
+    <section class="busy">
+        <div class="container busy-flex">
             <div>
-                <p class="p-bold">
+                <p class="text-mini text-mini__blu">
+                    Communicate Better
+                </p>
+                <h3 class="title-inner">
+                    Built for busy  small teams
+                </h3>
+                <p class="text-inner">
+                    Three products that can be used independently or combined together for your company’s needs.
+                </p>
+                <div>
+                    <button class="button">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+            <div>
+                <img class="animation-img" src="./img/busy/1.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="info">
+        <div class="container info-flex ">
+            <div>
+                <p class="info-p">
+                   <span> Subscriptions.</span>  Foundation works with the tools and services you already use every day.
+                </p>
+                <div>
+                    <a class="info-link" href="">
+                        Learn more about subscriptions
+                    </a>
+                </div>
+            </div>
+            <div>
+                <p class="info-p">
+                   <span> Felxible Hours.</span>  Get started with our simple snippet of JavaScript or easy to install SDKs for iOS and Android. 
+                </p>
+                <div>
+                    <a class="info-link" href="">
+                        Get more info about hours
+                    </a>
+                </div>
+            </div>
+            <div>
+                <p class="info-p">
+                   <span> Fast Communication.</span>  We offer measures like 2FA and SSO to ensure the safety of your data.
+                </p>
+                <div>
+                    <a class="info-link" href="">
+                        Communication guidelines
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+        <section class=" container categories">
+         <div class="container__column">
+                <h5 class="categories__pretitle">
                    Engage Visitors 
-                <p>
-                <h2 class="h2-bold">
-                   Understand your <br>
+                <h5>
+                <h2 class="categories__title">
+                   Understand your
                     audience
                 </h2>
-                <p class="p-normal">
-                   Early stage company? Eligible applicants get <br>
+                <p class="categories__subtitle">
+                   Early stage company? Eligible applicants get 
                     all of our products for just $49 a month.  
                 </p>
-                <button class="button-get">Get Started</button>
-                <button class="button-learn">Learn More</button>
-            </div>
-            <div class="items">
-               <div class="item-ctg">
+                <div class="ctg-button">
+                         <button class="button-get">Get Started</button>
+                         <button class="button-learn">Learn More</button>
+                </div>
+        </div>
+            <div class="container container-icons">
+               <div class="icons-ctg">
                   <div>
                       <a href="">
                           <img src="./img/face.png" alt="">
                         </a>
                   </div>
-                  <p class="p-item">
+                  <p class="p-icons">
                     Developers
                   </p>
                </div>
-               <div class="item-ctg">
+               <div class="icons-ctg">
                 <div>
                     <a href="">
                         <img src="./img/man.png" alt="">
                       </a>
                 </div>
-                <p class="p-item">
+                <p class="p-icons">
                     Entertainment
                 </p>
                </div>
-               <div class="item-ctg">
+               <div class="icons-ctg">
                 <div>
                     <a href="">
                         <img src="./img/tv.png" alt="">
                       </a>
                 </div>
-                <p class="p-item">
+                <p class="p-icons">
                     Athletes
                 </p>
                </div>
-               <div class="item-ctg">
+               <div class="icons-ctg">
                 <div>
                     <a href="">
                         <img src="./img/lamp.png" alt="">
                       </a>
                 </div>
-                <p class="p-item">
+                <p class="p-icons">
                     Creators
                 </p>
                </div>
             </div>
            </section>  
-       <section>
-           <div class="text-IOON">
-               <p class="p-IOON">
+       <section class=" info">
+           <div class=" container info">
+               <p class="info__p">
                 All Surfaces Covered
                </p>
-               <p class="p-IOON-norm">
+               <p class="info__text-norm ">
                 IOON kills bacteria on your hands, food,<br>
                  tables, laptops, you name it
                </p>
            </div>
         </section>
-           <div class="photos">
-                <div class="item"><img src="./img/apple.png" alt=""></div>
-                <div class="item"><img src="./img/bus.png" alt=""></div>
-                <div class="item"><img src="./img/boy.png" alt=""></div>
-                <div class="item"><img src="./img/hand.png" alt=""></div>
-                <div class="item"><img src="./img/iphon.png" alt=""></div>
-                <div class="item"><img src="./img/baby.png" alt=""></div>
-                <div class="item"><img src="./img/dog.png" alt=""></div>
+           <div class="grid">
+               <div class="container grid-container">
+                <img class="transform-img" src="./img/apple.png" alt="">
+                <img class="transform-img" src="./img/bus.png" alt="">
+                <img src="./img/boy.png" alt="">
+                <img src="./img/hand.png" alt="">
+                <img class="animation-img" src="./img/iphon.png" alt="">
+                <img class="transform-img" src="./img/baby.png" alt="">
+                <img class="transform-img" src="./img/dog.png" alt="">
+            </div>
            </div>
+           <section class= "container">
+               <div class="container-email">
+             <div class=" email_img">
+                <img class="animation-img animation-img__email" src="./img/fox.png" alt="">
+             </div>
+             <div class="email-form">
+
+                <h4 class="form_title">
+                    Start your free trial.
+                </h4>
+                <p class="form_subtitle">
+                    Get notified about company updates, news and blog posts. We hate spam.
+                </p>
+                <form action="post">
+                    <input class=" form-input" placeholder="Enter your email" type="text">
+                    <button class=" button-get">
+                        Get started
+                    </button>
+                </form>
+                <p class="form_subtitle form_subtitle-small">
+                    Free 14-day trial · Easy setup · Cancel any time. Check out Terms of Use.
+                </p>
+            </div>
+        </div>
+           </section>
+    <footer class="container footer">
+        <div class="container container-footer"> 
+             <section class="footer__columns footer__columns_first"> 
+                <div class="logo">
+                    <div>
+                        <img src="./img/Icon (2).svg" alt="">
+                    </div>
+                     <div>
+                         <p class="logo-bold">
+                          Foundation
+                         </p>
+                         <p class="logo-regular">
+                          Startup landing template
+                         </p>
+                      </div>
+                  </div>   
+                        <div>
+                          <p class="logo-regular logo__text">
+                              Foundation is a website template for startups and small teams. It helps to build a website in no time.
+                             </p>
+                         </div>
+                         <img class="footer-img" src="./img/AppStore.png"alt="">
+                         <img class="footer-img" src="./img/GooglePlay.png"alt="">
+            </section>
+            <div class="footer-text">
+            <section class="footer__columns footer__columns_second">
+                   <h4 class="footer__h4">
+                    Product
+                   </h4>
+                 <div class="footer__p">
+                    <p>Acquire Users</p> 
+                    <p> Content Marketing</p> 
+                    <p>Website Templates</p> 
+                    <p> Customer Management</p>  
+                    <p> Virtual Inbox</p> 
+                 </div>
+            </section>
+            <section class="footer__columns footer__columns_third">
+                   <h4 class="footer__h4">
+                    Company
+                   </h4>
+                           <div class="footer__p">
+                                 <p> About Foundation</p> 
+                                 <p> Brand Guidelines</p> 
+                                 <p>Press Kit</p>
+                                 <p>Support</p>
+                           </div>
+            </section>
+        </div>
+        </div>
+        <hr class="footer__line">
+        <section class="underline">
+            <div class="container container-underline">
+            <nav class="footer-nav">
+                <ul>
+                    <li class="nav__li">
+                        <a href="">
+                            Terms
+                        </a>
+                    </li>
+                    <li class="nav__li" >
+                        <a href="">
+                            Privacy
+                        </a>
+                    </li>
+                    <li class="nav__li">
+                        <a href="">
+                            License
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+               <img class="footer__img" src="./img/icon-twitter.svg" alt="">
+               <img class="footer__img" src="./img/icon-fb.svg" alt="">
+               <img class="footer__img" src="./img/LinkedIn.svg" alt="">
+            </div>
+        </div>
+        </section>
+    </footer>
 </body>
 </html>
